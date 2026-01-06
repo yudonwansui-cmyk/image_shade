@@ -1,0 +1,91 @@
+﻿  Compiling CUDA source file kernel.cu...
+  Compiling CUDA source file main.cu...
+  
+  C:\Users\yudon\Desktop\image\image\image>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"     --keep-dir x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdx64\Release\vc143.pdb" -o C:\Users\yudon\Desktop\image\image\image\x64\Release\kernel.cu.obj "C:\Users\yudon\Desktop\image\image\image\kernel.cu" 
+  Compiling CUDA source file simulation.cu...
+  
+  C:\Users\yudon\Desktop\image\image\image>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"     --keep-dir x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdx64\Release\vc143.pdb" -o C:\Users\yudon\Desktop\image\image\image\x64\Release\main.cu.obj "C:\Users\yudon\Desktop\image\image\image\main.cu" 
+  
+  C:\Users\yudon\Desktop\image\image\image>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"     --keep-dir x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdx64\Release\vc143.pdb" -o C:\Users\yudon\Desktop\image\image\image\x64\Release\simulation.cu.obj "C:\Users\yudon\Desktop\image\image\image\simulation.cu" 
+C:\Users\yudon\Desktop\image\image\image\simulation.cu(104): warning #221-D: floating-point value does not fit in required floating-point type
+        float3 world_min = make_float3(((float)(1e+300)), ((float)(1e+300)), ((float)(1e+300)));
+                                        ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\yudon\Desktop\image\image\image\simulation.cu(104): warning #221-D: floating-point value does not fit in required floating-point type
+        float3 world_min = make_float3(((float)(1e+300)), ((float)(1e+300)), ((float)(1e+300)));
+                                                           ^
+  
+C:\Users\yudon\Desktop\image\image\image\simulation.cu(104): warning #221-D: floating-point value does not fit in required floating-point type
+        float3 world_min = make_float3(((float)(1e+300)), ((float)(1e+300)), ((float)(1e+300)));
+                                                                              ^
+  
+C:\Users\yudon\Desktop\image\image\image\simulation.cu(105): warning #221-D: floating-point value does not fit in required floating-point type
+        float3 world_max = make_float3(-((float)(1e+300)), -((float)(1e+300)), -((float)(1e+300)));
+                                         ^
+  
+C:\Users\yudon\Desktop\image\image\image\simulation.cu(105): warning #221-D: floating-point value does not fit in required floating-point type
+        float3 world_max = make_float3(-((float)(1e+300)), -((float)(1e+300)), -((float)(1e+300)));
+                                                             ^
+  
+C:\Users\yudon\Desktop\image\image\image\simulation.cu(105): warning #221-D: floating-point value does not fit in required floating-point type
+        float3 world_max = make_float3(-((float)(1e+300)), -((float)(1e+300)), -((float)(1e+300)));
+                                                                                 ^
+  
+C:\Users\yudon\Desktop\image\image\image\simulation.cu(104): warning #221-D: floating-point value does not fit in required floating-point type
+        float3 world_min = make_float3(((float)(1e+300)), ((float)(1e+300)), ((float)(1e+300)));
+                                        ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\yudon\Desktop\image\image\image\simulation.cu(104): warning #221-D: floating-point value does not fit in required floating-point type
+        float3 world_min = make_float3(((float)(1e+300)), ((float)(1e+300)), ((float)(1e+300)));
+                                                           ^
+  
+C:\Users\yudon\Desktop\image\image\image\simulation.cu(104): warning #221-D: floating-point value does not fit in required floating-point type
+        float3 world_min = make_float3(((float)(1e+300)), ((float)(1e+300)), ((float)(1e+300)));
+                                                                              ^
+  
+C:\Users\yudon\Desktop\image\image\image\simulation.cu(105): warning #221-D: floating-point value does not fit in required floating-point type
+        float3 world_max = make_float3(-((float)(1e+300)), -((float)(1e+300)), -((float)(1e+300)));
+                                         ^
+  
+C:\Users\yudon\Desktop\image\image\image\simulation.cu(105): warning #221-D: floating-point value does not fit in required floating-point type
+        float3 world_max = make_float3(-((float)(1e+300)), -((float)(1e+300)), -((float)(1e+300)));
+                                                             ^
+  
+C:\Users\yudon\Desktop\image\image\image\simulation.cu(105): warning #221-D: floating-point value does not fit in required floating-point type
+        float3 world_max = make_float3(-((float)(1e+300)), -((float)(1e+300)), -((float)(1e+300)));
+                                                                                 ^
+  
+  simulation.cu
+C:\Users\yudon\Desktop\image\image\image\main.cu(67): warning #177-D: variable "VIS_TARGET_MONTH" was declared but never referenced
+        const int VIS_TARGET_MONTH = 1;
+                  ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\yudon\Desktop\image\image\image\main.cu(68): warning #177-D: variable "VIS_TARGET_HOUR" was declared but never referenced
+        const float VIS_TARGET_HOUR = 9.0f;
+                    ^
+  
+C:\Users\yudon\Desktop\image\image\image\main.cu(51): warning #177-D: function "degreesToRadians" was declared but never referenced
+    static inline float degreesToRadians(float degrees) {
+                        ^
+  
+  kernel.cu
+  tmpxft_00006660_00000000-7_simulation.cudafe1.cpp
+C:\Users\yudon\Desktop\image\image\image\simulation.cu(196): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  main.cu
+  tmpxft_00005c8c_00000000-7_kernel.cudafe1.cpp
+  tmpxft_00003c14_00000000-7_main.cudafe1.cpp
+C:\Users\yudon\Desktop\image\image\image\main.cu(77): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\yudon\Desktop\image\image\image\main.cu(77): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+C:\Users\yudon\Desktop\image\image\image\main.cu(179): warning C4244: “初始化”: 从“unsigned __int64”转换到“int”，可能丢失数据
+C:\Users\yudon\Desktop\image\image\image\main.cu(179): warning C4244: “初始化”: 从“unsigned __int64”转换到“const int”，可能丢失数据
+C:\Users\yudon\Desktop\image\image\image\main.cu(290): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+    正在创建库 C:\Users\yudon\Desktop\image\image\x64\Release\image.lib 和对象 C:\Users\yudon\Desktop\image\image\x64\Release\image.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+  image.vcxproj -> C:\Users\yudon\Desktop\image\image\x64\Release\image.exe

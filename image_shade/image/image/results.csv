@@ -1,0 +1,13 @@
+Table 1: Monthly Averages
+Date,Avg. Optical Eff.,Avg. Cosine Eff.,Avg. S/B Eff.,Avg. Truncation Eff.,Power per Area (kW/m^2)
+1/21,0.5082,0.7024,0.8705,0.9359,0.4027
+
+
+Table 2: Annual Averages
+Metric,Value
+Year Avg Optical Efficiency,0.5082
+Year Avg Cosine Efficiency,0.7024
+Year Avg Shadow/Block Efficiency,0.8705
+Year Avg Truncation Efficiency,0.9359
+Year Avg Heat Power (MW),25.2995
+Year Avg Power per Area (kW/m^2),0.4027
